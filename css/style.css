@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@import url(blog-post-page.css);
-@import url(main-page.css);
-@import url(main-page-media-queries.css);
-@import url(blog-post-page-media-queries.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 10%;
+}

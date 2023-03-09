@@ -5,7 +5,7 @@
         grid-template-columns: repeat(9, 1fr);
         grid-template-areas:
             "hd hd hd hd hd hd hd hd hd"
-            "sd sd sd mn mn mn mn mn mn"
+            "mn mn mn mn mn mn mn mn mn"
             "ft ft ft ft ft ft ft ft ft"
         ;
     }
@@ -20,13 +20,4 @@
         color: #fff;
     }
 
-    .post-container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas:
-            "tx tx im"
-            "tx tx im"
-            "tx tx ."
-        ;
-    }
 }
